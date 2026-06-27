@@ -11,7 +11,11 @@ public class Etudiant{
     }
 
     public String attribuerMention(){
+<<<<<<< HEAD
         double moyenne = 10.0;
+=======
+        double moyenne = 15.0;
+>>>>>>> feature/mention
         if (moyenne >= 16) return "Très Bien";
         else if (moyenne >= 14) return "Bien";
         else if (moyenne >=12) return "Assez Bien";
