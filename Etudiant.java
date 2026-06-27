@@ -11,7 +11,7 @@ public class Etudiant{
     }
 
     public String attribuerMention(){
-        double moyenne = 12.0;
+        double moyenne = 18.0;
         if (moyenne >= 16) return "Très Bien";
         else if (moyenne >= 14) return "Bien";
         else if (moyenne >=12) return "Assez Bien";
